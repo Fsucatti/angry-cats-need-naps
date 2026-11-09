@@ -1,8 +1,8 @@
-# Refugio
+# Angry Cats Need Naps Too
 
 A logic puzzle game about rescuing cats. Solve boards to earn cans, rescue ten cats with their own powers, and restore a run-down shelter room by room. It runs in the browser, with no sign-up.
 
-"Refugio" is Spanish for shelter.
+**[Play it here](https://angry-cats-need-naps.fsucatti-portfolio.workers.dev)**
 
 Built by **Francisco Sucatti**.
 

@@ -1,4 +1,4 @@
-# Arte de Refugio
+# Arte de Angry Cats Need Naps Too
 
 Todo el arte se generó con IA, con GPT Image 2.5 en FLORA, y después se redujo a píxeles reales con `scripts/pixelate.mjs`.
 

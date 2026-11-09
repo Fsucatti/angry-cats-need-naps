@@ -18,7 +18,7 @@ export function shareText(args: {
 }): string {
   const copy = COPY[args.lang];
   return [
-    `Refugio ${args.date}`,
+    `Angry Cats Need Naps Too ${args.date}`,
     `${args.won ? `😺 ${copy.won}` : `😾 ${copy.lost}`} · ${formatTime(args.timeMs)}`,
     `🔥 ${copy.streak}: ${args.streak}`,
     args.url,

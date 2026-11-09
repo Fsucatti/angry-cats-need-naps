@@ -117,11 +117,11 @@ describe("recuperar la racha", () => {
 });
 
 describe("resumen para compartir", () => {
-  const args = { date: "2026-12-05", won: true, timeMs: 125000, streak: 3, url: "https://refugio.example/d/2026-12-05" };
+  const args = { date: "2026-12-05", won: true, timeMs: 125000, streak: 3, url: "https://game.example/d/2026-12-05" };
 
   it("incluye fecha, resultado, tiempo, racha y enlace en castellano", () => {
     const text = shareText({ ...args, lang: "es" });
-    for (const part of ["2026-12-05", "Gané", "2:05", "3", args.url]) expect(text).toContain(part);
+    for (const part of ["Angry Cats Need Naps Too", "2026-12-05", "Gané", "2:05", "3", args.url]) expect(text).toContain(part);
   });
 
   it("también en inglés, y cuando se pierde", () => {
